@@ -1,0 +1,11 @@
+.MeetingList {
+	
+}
+.BookList >h1{
+	color: rgb(127, 127, 199)
+}
+.BookList>table,td,tr{
+	margin-left: 40%;
+	border: 2px solid rgb(127, 127, 199);
+	color: rgb(127, 127, 199);
+}

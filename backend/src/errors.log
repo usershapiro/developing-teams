@@ -1,0 +1,123 @@
+Wed, 10 May 2023 16:45:37 GMT
+catchAll error
+Stack: Error: ER_BAD_NULL_ERROR: Column 'teamCode' cannot be null
+    at Query.Sequence._packetToError (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    --------------------
+    at Pool.query (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:37:44)
+    at step (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:33:23)
+    at Object.next (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:14:53)
+    at C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Wed, 10 May 2023 18:25:52 GMT
+catchAll error
+Stack: Error: ER_BAD_NULL_ERROR: Column 'teamCode' cannot be null
+    at Query.Sequence._packetToError (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    --------------------
+    at Pool.query (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:37:44)
+    at step (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:33:23)
+    at Object.next (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:14:53)
+    at C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Wed, 10 May 2023 18:25:55 GMT
+catchAll error
+Stack: Error: ER_BAD_NULL_ERROR: Column 'teamCode' cannot be null
+    at Query.Sequence._packetToError (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    --------------------
+    at Pool.query (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:37:44)
+    at step (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:33:23)
+    at Object.next (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:14:53)
+    at C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Wed, 10 May 2023 22:41:07 GMT
+catchAll error
+Stack: Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:37:44)
+    at step (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 10 May 2023 22:43:10 GMT
+catchAll error
+Stack: Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:37:44)
+    at step (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 10 May 2023 22:43:28 GMT
+catchAll error
+Stack: Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\backend\PROJECTS\teams-meetings\backend\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\backend\PROJECTS\teams-meetings\backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:37:44)
+    at step (C:\backend\PROJECTS\teams-meetings\backend\src\5-logic\Meetinglogic.ts:33:23)
+----------------------------------------------------------------------------------------------------
